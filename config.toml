@@ -104,9 +104,10 @@ disableHugoGeneratorInject = false
 
   # Uncomment this if you want a portrait on your start page
    [params.portrait]
-     path     = "/img/image.png"
+     path     = "/img/image.webp"
      alt      = "Simon Schlieber Avatar"
      maxWidth = "15em"
+     maxHeight = "15em"
 
 
   # Social icons
