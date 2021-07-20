@@ -10,7 +10,7 @@ Hugo is the **world’s fastest framework for building websites**. It is written
 
 It makes use of a variety of open source projects including:
 
-Simon
+**Simon**
 
 * https://github.com/russross/blackfriday
 * https://github.com/alecthomas/chroma
