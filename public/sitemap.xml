@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/</loc>
+    <loc>https://schlieber.net/</loc>
     <lastmod>2021-07-20T01:40:20+02:00</lastmod>
   </url><url>
-    <loc>localhost/posts/2021/07/my-first-post/</loc>
+    <loc>https://schlieber.net/posts/2021/07/my-first-post/</loc>
     <lastmod>2021-07-20T01:40:20+02:00</lastmod>
   </url><url>
-    <loc>localhost/posts/</loc>
+    <loc>https://schlieber.net/posts/</loc>
     <lastmod>2021-07-20T01:40:20+02:00</lastmod>
   </url><url>
-    <loc>localhost/about/</loc>
+    <loc>https://schlieber.net/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost/impressum/</loc>
+    <loc>https://schlieber.net/impressum/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>localhost/blog/</loc>
+    <loc>https://schlieber.net/blog/</loc>
   </url><url>
-    <loc>localhost/series/</loc>
+    <loc>https://schlieber.net/series/</loc>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>https://schlieber.net/tags/</loc>
   </url>
 </urlset>

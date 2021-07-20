@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hi I am Simon Schlieber</title>
-    <link>localhost/</link>
+    <link>https://schlieber.net/</link>
     <description>Recent content on Hi I am Simon Schlieber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 20 Jul 2021 01:40:20 +0200</lastBuildDate><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 01:40:20 +0200</lastBuildDate><atom:link href="https://schlieber.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>localhost/posts/2021/07/my-first-post/</link>
+      <link>https://schlieber.net/posts/2021/07/my-first-post/</link>
       <pubDate>Tue, 20 Jul 2021 01:40:20 +0200</pubDate>
       
-      <guid>localhost/posts/2021/07/my-first-post/</guid>
+      <guid>https://schlieber.net/posts/2021/07/my-first-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>localhost/about/</link>
+      <link>https://schlieber.net/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>localhost/about/</guid>
+      <guid>https://schlieber.net/about/</guid>
       <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
 Simon
@@ -31,10 +31,10 @@ Simon
     
     <item>
       <title>Impressum</title>
-      <link>localhost/impressum/</link>
+      <link>https://schlieber.net/impressum/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>localhost/impressum/</guid>
+      <guid>https://schlieber.net/impressum/</guid>
       <description>Impressum
 Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
 Schlieber.net
