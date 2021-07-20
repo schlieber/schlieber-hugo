@@ -1,0 +1,201 @@
+baseurl      = "https://schlieber.net"
+title        = "Simon Schlieber"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Simon Schlieber"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "How to find me online"
+
+  # Set a background for the homepage
+  # backgroundImage = "img/background.jpg"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "All about Simon Schlieber. Find links, view Photos, get in Touch with Simon. Find Simon Schliebers GitHub or PayPal information"
+  keywords = "Simon Schlieber, Simon, Schlieber, IT-Services, Information Technology"
+  images = [""]
+
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Hi I am Simon Schlieber"
+    subtitle = "Welcome to my Site, I am still expanding this, so check back soon"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "welcome to schlieber.net"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "Impressum"
+    name       = "Impressum"
+    url        = "impressum/"
+
+  # Uncomment this if you want a portrait on your start page
+   [params.portrait]
+     path     = "/img/image.png"
+     alt      = "Simon Schlieber Avatar"
+     maxWidth = "15em"
+
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    title = "Simon Schlieber on Twitter"
+    url  = "https://twitter.com/schlieber"
+
+  [[params.social]]
+    name = "apple"
+    title = "Simon Schlieber on Apple Music"
+    url  = "https://music.apple.com/profile/schlieber"
+
+  [[params.social]]
+    name = "facebook"
+    title = "Simon Schlieber on Facebook"
+    url  = "https://www.facebook.com/schlieber"
+
+  [[params.social]]
+    name = "amazon"
+    title = "Simon Schlieber's personal Amazon"
+    url  = "https://www.amazon.de/gp/profile/amzn1.account.AG4ZVXNXBR2RZK4MZVRC6DQR2QVA"
+
+  [[params.social]]
+    name = "behence"
+    title = "Simon Schlieber on Behance"
+    url  = "https://www.behance.net/simonschlieber"
+
+  [[params.social]]
+    name = "linkedin"
+    title = "View Simon Schliebers LinkedIn Profile"
+    url  = "https://linkedin.com/in/schlieber"
+
+  [[params.social]]
+    name = "xing"
+    title = "View Simon Schliebers Profile on Xing"
+    url  = "https://www.xing.com/profile/Simon_Schlieber2"
+
+  [[params.social]]
+    name = "youtube"
+    title = "Visit Simon Schlieber's YouTube channel"
+    url  = "https://www.youtube.com/channel/UCTKSYZwc81qoRWeitB6GOYw"
+
+  [[params.social]]
+    name = "flickr"
+    title =  "Enjoy Simon Schlieber's Photos on Flickr"
+    url  = "https://www.flickr.com/people/schlieber/"
+
+  [[params.social]]
+    name = "patreon"
+    title = "Support Simon Schlieber on Patreon"
+    url  = "https://www.patreon.com/schlieber"
+
+  [[params.social]]
+    name = "github"
+    title = "Simon Schliebers GitHub"
+    url  = "https://www.github.com/schlieber"
+
+  [[params.social]]
+    name = "paypal"
+    title = "Support Simon Schlieber directly via PayPal"
+    url  = "https://www.paypal.me/schlieber"
+
+  [[params.social]]
+    name = "coffee"
+    title = "Buy Simon Schlieber a coffee"
+    url  = "https://www.buymeacoffee.com/schlieber"
+
+  [[params.social]]
+    name = "keybase"
+    title = "Simon Schliebers secure communication on keybase.io"
+    url  = "https://keybase.io/schlieber"
+
+  [[params.social]]
+    name = "reddit"
+    title = "Simon Schlieber on Reddit"
+    url  = "https://new.reddit.com/user/SimonMarcel"
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    ]
+
